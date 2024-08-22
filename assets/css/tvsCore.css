@@ -225,3 +225,8 @@ body.boxed .page-wrapper {
     display: block!important;
   }
 }
+
+.left-sidebar, .right-sidebar,
+.main-content {
+  padding-top: 5px!important;
+}
