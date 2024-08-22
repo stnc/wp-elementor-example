@@ -218,3 +218,10 @@ body.boxed .page-wrapper {
   color: #fff!important;
 
 }
+
+
+@media (max-width: 991px) {
+  #main-sidebar-menu {
+    display: block!important;
+  }
+}

@@ -3,11 +3,11 @@
 class Elementor_Test_Widget extends \Elementor\Widget_Base {
 
     public function get_name() {
-        return 'castos';
+        return 'tvs';
     }
 
     public function get_title() {
-        return __( 'castos', 'elementor-castos-extension' );
+        return __( 'tvs', 'elementor-castos-extension' );
     }
 
     public function get_icon() {
@@ -20,7 +20,7 @@ class Elementor_Test_Widget extends \Elementor\Widget_Base {
 
     public function getAllEpisodes() {
         $args = array(
-            'post_type'=> 'podcast',
+            'post_type'=> 'debate',
         );
 
         $query = new WP_Query( $args );

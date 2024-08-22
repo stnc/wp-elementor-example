@@ -4,7 +4,7 @@
  * Plugin Name: Tvs Debates System Core 
  * Author: Tvs Debates System Core - css, js and tvs Elementor Widget 
  * Text-domain: wp-single-system
- * Plugin URI: https://www.linux.com
+ * Plugin URI: https://github.com/stnc/tvs-core
  * Version: 4.0.0
  * Description: For frontend css and js 
  * License: GPLv2 or later
