@@ -1,0 +1,76 @@
+
+/* event list */
+
+
+#tribe-events-pg-template {
+
+  max-width: 100% !important;
+}
+
+.tribe-events-calendar-list__event-date-tag-datetime {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tribe-events-calendar-list__event-date-tag-datetime,
+.tribe-events-calendar-latest-past__event-date-tag-datetime {
+  font-size: 1em;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  margin: 2em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+  height: auto !important;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-h4--min-medium {
+  padding: 15px !important;
+}
+
+.tribe-events-calendar-list__event-date-tag-weekday,
+.tribe-events-calendar-latest-past__event-date-tag-month {
+
+  padding: 0.4em 0 !important;
+  color: #fff !important;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302 !important;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+.tribe-events-calendar-list__event-date-tag-weekday {
+  font-size: 16px !important;
+
+}
+
+
+
+.tribe-events-calendar-latest-past__event-date-tag-daynum {
+  padding: 9px 0 !important;
+}
+
+.tribe-events-calendar-latest-past__event-date-tag-year {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+/* event detail   */
+.tribe-events-notices {
+  border-bottom: 1px solid var(--tec-color-border-secondary);
+  box-shadow: none;
+  background-color: #a96767;
+  color: white;
+  padding: 10px;
+  font-size: 19px;
+}
+
+/* event list end */

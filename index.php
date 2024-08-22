@@ -286,7 +286,7 @@ Elementor_Castos_Extension::instance();
 
  function ssCore_enqueue_style()
  {
-     wp_enqueue_style( "ss-style-boot",plugins_url("assets/css/tvsCore.css", __FILE__) ,"","1.4.43" );
+     wp_enqueue_style( "ss-style-boot",plugins_url("assets/css/tvsCore.css", __FILE__) ,"","4.0.00" );
  
  }
  add_action('wp_enqueue_scripts', 'ssCore_enqueue_style');
