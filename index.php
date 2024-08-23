@@ -16,9 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
-// use SeriouslySimplePodcasting\Controllers\Players_Controller;
+// use STNC\Controllers\Players_Controller;
 
-final class Elementor_Castos_Extension {
+final class Elementor_STNC_Extension {
     /**
      * Plugin Version
      *
@@ -277,7 +277,9 @@ final class Elementor_Castos_Extension {
 
 }
 
-Elementor_Castos_Extension::instance();
+
+//cancel 
+//Elementor_STNC_Extension::instance();
 
 
 
