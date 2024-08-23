@@ -51,6 +51,9 @@ ul.menu li a.left_marker {
 }
 
 
+.sidebar-menu > li.menu-item.active > a {
+  color: red!important;
+}
 
 /* wp-content\plugins\tvs-debate\theme_page_templates\presslistPage.php */
 
@@ -229,4 +232,9 @@ body.boxed .page-wrapper {
 .left-sidebar, .right-sidebar,
 .main-content {
   padding-top: 5px!important;
+}
+
+
+.pagination-wrap {
+  margin-bottom: 15px;
 }
