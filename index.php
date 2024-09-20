@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // use STNC\Controllers\Players_Controller;
 
 
-include "DebugDemo.php";
+// include "DebugDemo.php";
 
 
 //cancel 
